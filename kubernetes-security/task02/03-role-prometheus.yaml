@@ -5,6 +5,7 @@ metadata:
 rules:
 - resources: ["pods"]
   verbs: ["get","list","watch"]
-  apiGroups: ['rbac.authorization.k8s.io']
+  apiGroups: [""]
+
 
 
